@@ -8,7 +8,6 @@ applications:
   env:
     JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ } }'
     GRANT_TYPE: client_credentials
-    MALLOC_ARENA_MAX: 2
   services:
   - tracker-timesheets-database
   - tracker-service-registry
